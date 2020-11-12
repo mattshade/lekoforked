@@ -1,33 +1,86 @@
 {
-  "private": true,
-  "name": "minimal-blog",
+  "_from": "@lekoarts/gatsby-theme-minimal-blog@^2.7.2",
+  "_id": "@lekoarts/gatsby-theme-minimal-blog@2.7.2",
+  "_inBundle": false,
+  "_integrity": "sha512-6uCZcsC33s1RZ7al1dKxc7oCN/bQwcSxib+M2KsEU93Cz02Bggng9mUOBMGR9XrR+1lmKNJAaDtHjibMPCKwpw==",
+  "_location": "/@lekoarts/gatsby-theme-minimal-blog",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@lekoarts/gatsby-theme-minimal-blog@^2.7.2",
+    "name": "@lekoarts/gatsby-theme-minimal-blog",
+    "escapedName": "@lekoarts%2fgatsby-theme-minimal-blog",
+    "scope": "@lekoarts",
+    "rawSpec": "^2.7.2",
+    "saveSpec": null,
+    "fetchSpec": "^2.7.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@lekoarts/gatsby-theme-minimal-blog/-/gatsby-theme-minimal-blog-2.7.2.tgz",
+  "_shasum": "b4f3e74b17a10e306ffc249cfe6226323cf10644",
+  "_spec": "@lekoarts/gatsby-theme-minimal-blog@^2.7.2",
+  "_where": "/Users/matthewshade/imagepalooza",
+  "author": {
+    "name": "LekoArts",
+    "email": "hello@lekoarts.de"
+  },
+  "bugs": {
+    "url": "https://github.com/LekoArts/gatsby-themes/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@lekoarts/gatsby-theme-minimal-blog-core": "^2.6.2",
+    "@loadable/component": "^5.14.1",
+    "@theme-ui/color": "^0.3.1",
+    "@theme-ui/components": "^0.3.1",
+    "@theme-ui/presets": "^0.3.0",
+    "gatsby-plugin-catch-links": "^2.3.15",
+    "gatsby-plugin-feed": "^2.5.20",
+    "gatsby-plugin-react-helmet": "^3.3.14",
+    "gatsby-plugin-theme-ui": "^0.3.0",
+    "gatsby-plugin-typescript": "^2.4.25",
+    "lodash.kebabcase": "^4.1.1",
+    "mdx-utils": "^0.2.0",
+    "prism-react-renderer": "^1.1.1",
+    "react-helmet": "^6.1.0",
+    "react-live": "^2.2.2",
+    "theme-ui": "^0.3.1",
+    "typeface-ibm-plex-sans": "^1.1.13"
+  },
+  "deprecated": false,
   "description": "Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.",
-  "version": "1.3.9",
-  "author": "LekoArts <hello@lekoarts.de>",
-  "license": "0BSD",
-  "starter-name": "gatsby-starter-minimal-blog",
+  "gitHead": "1acb7d5098baefbfafad8341037719b9d6f37a2a",
+  "homepage": "https://themes.lekoarts.de",
+  "keywords": [
+    "gatsby",
+    "gatsby-theme",
+    "gatsby-plugin",
+    "lekoarts"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@lekoarts/gatsby-theme-minimal-blog",
+  "peerDependencies": {
+    "gatsby": "^2.13.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LekoArts/gatsby-themes.git",
+    "directory": "themes/gatsby-theme-minimal-blog"
+  },
   "scripts": {
     "build": "gatsby build",
+    "clean": "gatsby clean",
     "develop": "gatsby develop",
-    "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
-    "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
-    "start": "gatsby develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "start": "gatsby develop"
   },
-  "dependencies": {
-    "@lekoarts/gatsby-theme-minimal-blog": "^2.7.3",
-    "gatsby": "^2.25.3",
-    "gatsby-plugin-google-analytics": "^2.4.1",
-    "gatsby-plugin-manifest": "^2.5.2",
-    "gatsby-plugin-netlify": "^2.4.0",
-    "gatsby-plugin-offline": "^3.3.3",
-    "gatsby-plugin-sitemap": "^2.5.1",
-    "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.13",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
-  },
-  "devDependencies": {
-    "cross-env": "^7.0.2"
-  }
+  "version": "2.7.2"
 }
